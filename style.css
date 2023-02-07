@@ -1,0 +1,35 @@
+
+body{
+  width: 100%;
+}
+.clearfix{
+  width: 400px;
+}
+
+.red{
+  width: 400px;
+  height: 100px;
+  background: #ff0000;
+}
+.green{
+  float: left;
+  width: 150px;
+  height: 250px;
+  background:#00ff1e;;
+}
+.blue{
+  float: right;
+  width: 250px;
+  height: 250px;
+  background:#3300ff;
+}
+.yellow{
+  width: 400px;
+  height: 100px;
+  background: #ffe600;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
